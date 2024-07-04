@@ -1,8 +1,8 @@
 
-const Page = () => {
+const Analytic = () => {
   return (
     <div>analytic page</div>
   )
 }
 
-export default Page
+export default Analytic
