@@ -30,32 +30,32 @@ export const siteConfig = {
 	Sidebar: [
 		{
 			label: "Dashboard",
-			href: "/sass",
+			href: "/saas",
 			icons:  <HomeIcon className="h-5 w-5" />
 		},
 		{
 			label: "Products",
-			href: "/sass/products",
+			href: "/saas/products",
 			icons: <LayoutGridIcon className="h-5 w-5" />
 		},
 		{
 			label: "Orders",
-			href: "/sass/orders",
+			href: "/saas/orders",
 			icons: <ShoppingCartIcon className="h-5 w-5" />
 		},
 		{
 			label: "Customers",
-			href: "/sass/customers",
+			href: "/saas/customers",
 			icons:  <UsersIcon className="h-5 w-5" />
 		},
 		{
 			label: "Analytics",
-			href: "/sass/analytics",
+			href: "/saas/analytics",
 			icons: <LineChartIcon className="h-5 w-5" />
 		},
 		{
 			label: "Settings",
-			href: "/sass/settings",
+			href: "/saas/settings",
 			icons:  <SettingsIcon className="h-5 w-5" />
 		},
 	],
