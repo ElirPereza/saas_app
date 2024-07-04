@@ -3,7 +3,7 @@
 const Dashboard = () => {
   return (
     <div className="flex">
-      DashBoard Page 
+      DashBoard Page!!!!!
     </div>
   );
 };

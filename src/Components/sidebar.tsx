@@ -11,8 +11,9 @@ const Sidebar = () => {
   const { user, signOut } = useClerk();
   console.log(user);
   return (
-    <div>
-      <aside className="fixed inset-y-0 left-0 z-10 flex h-full w-14 flex-col border-r bg-transparent sm:w-64">
+    <div className=" h-screen">
+      <aside className="  flex  w-14 flex-col border-r bg-transparent sm:w-64 h-full">
+
         <Card className="flex w-auto h-20 items-center border-b gap-4 justify-center m-4">
           <UserButton
             appearance={{
