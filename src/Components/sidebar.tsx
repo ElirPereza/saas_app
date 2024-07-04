@@ -13,6 +13,7 @@ const Sidebar = () => {
   return (
     <div className=" h-screen">
       <aside className="  flex  w-14 flex-col border-r bg-transparent sm:w-64 h-full">
+
         <Card className="flex w-auto h-20 items-center border-b gap-4 justify-center m-4">
           <UserButton
             appearance={{

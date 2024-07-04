@@ -12,6 +12,7 @@ export default function DashboardLayout({
       <div className="flex-1">
         {children}
       </div>
+
     </section>
   );
 }
