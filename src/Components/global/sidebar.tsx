@@ -3,9 +3,9 @@ import { DoorOpenIcon, LineChartIcon, MountainIcon, SettingsIcon, UsersIcon } fr
 import { ArrowBigLeft, ChevronLeft, ChevronRight, HomeIcon, LayoutGridIcon, ShoppingCartIcon } from "lucide-react";
 import { UserButton, useClerk } from "@clerk/nextjs";
 import Link from "next/link";
-import { siteConfig } from "./config/site";
-import { Card } from "./ui/card";
-import { Button } from "./ui/button";
+import { siteConfig } from "../config/site";
+import { Card } from "../ui/card";
+import { Button } from "../ui/button";
 import { useStore } from "@/lib/store/store";
 import DarkModeButton from "./darkModeButton";
 import { useTheme } from "next-themes";

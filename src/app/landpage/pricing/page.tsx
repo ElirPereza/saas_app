@@ -1,4 +1,4 @@
-import { CheckIcon, MountainIcon } from "@/Components/Icons"
+import { CheckIcon, MountainIcon } from "@/Components/global/Icons"
 import Link from "next/link"
 
 export default function Component() {

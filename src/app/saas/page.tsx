@@ -1,11 +1,14 @@
+import SiteCard from "@/Components/global/sitecard";
+import Dashboard from "./dashboard/page";
 
-
-const Dashboard = () => {
+const Page = () => {
   return (
-    <div className="flex">
-      DashBoard Page!!!!!
+    <div >
+        
+
+        <Dashboard/>
     </div>
   );
 };
 
-export default Dashboard;
+export default Page;

@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React from "react";
-import { MountainIcon } from "./Icons";
-import { Separator } from "./ui/separator";
-import { siteConfig } from "./config/site";
+import { siteConfig } from "../config/site";
+import { Separator } from "../ui/separator";
+
 
 const Header = () => {
   return (

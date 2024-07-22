@@ -7,11 +7,10 @@ import {
   InfoIcon,
   LockIcon,
   ScalingIcon,
-} from "@/Components/Icons";
+} from "@/Components/global/Icons";
 import Image from "next/image";
 import { Button } from "@/Components/ui/button";
-import Header from "@/Components/header";
-import Footer from "@/Components/footer";
+import Footer from "@/Components/global/footer";
 
 const keyFeature = [
   {

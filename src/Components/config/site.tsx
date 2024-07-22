@@ -1,5 +1,5 @@
 import { Sidebar } from "lucide-react";
-import { HomeIcon, LayoutGridIcon, LineChartIcon, MountainIcon, SettingsIcon, ShoppingCartIcon, UsersIcon } from "../Icons";
+import { HomeIcon, LayoutGridIcon, LineChartIcon, MountainIcon, SettingsIcon, ShoppingCartIcon, UsersIcon } from "../global/Icons";
 
 export type SiteConfig = typeof siteConfig;
 

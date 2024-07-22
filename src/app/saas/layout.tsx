@@ -1,4 +1,5 @@
-import Sidebar from "@/Components/sidebar";
+import Sidebar from "@/Components/global/sidebar";
+import SiteCard from "@/Components/global/sitecard";
 import { ReactNode } from "react";
 
 export default function DashboardLayout({
@@ -10,6 +11,7 @@ export default function DashboardLayout({
     <section className="flex ">
       <Sidebar />
       <div className="flex-1">
+      <SiteCard/>
         {children}
       </div>
 
